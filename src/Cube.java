@@ -1,4 +1,4 @@
-public class Cube implements Shape{
+public class Cube implements Shape, ThreeDimensionalShape{
     private int sideLength;
 
     public Cube(int sideLength) {
@@ -16,5 +16,10 @@ public class Cube implements Shape{
     @Override
     public double calculateArea() {
         return this.sideLength * this.sideLength * 6;
+    }
+
+    @Override
+    public double calculateVolume() {
+        return this.sideLength * this.sideLength * this.sideLength;
     }
 }

@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="282550ef-f128-4d98-9606-684338c9ff7d" name="Changes" comment="Fixed Violation of Liskov Substitiuon">
+    <list default="true" id="282550ef-f128-4d98-9606-684338c9ff7d" name="Changes" comment="Fixing the violation of Interface Segregation">
       <change afterPath="$PROJECT_DIR$/src/ThreeDimensionalShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682961743253</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Violation of Interface Segregation">
+      <created>1682962142168</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682962142168</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -123,6 +133,8 @@
     <MESSAGE value="Fix of Open-Closed Principle." />
     <MESSAGE value="Violation of Liskov Substituion" />
     <MESSAGE value="Fixed Violation of Liskov Substitiuon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Violation of Liskov Substitiuon" />
+    <MESSAGE value="Violation of Interface Segregation" />
+    <MESSAGE value="Fixing the violation of Interface Segregation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing the violation of Interface Segregation" />
   </component>
 </project>

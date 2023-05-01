@@ -1,5 +1,14 @@
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Circle circle = new Circle(3);
+        Square square = new Square(12);
+        AreaCalculator areaCalculator = new AreaCalculator();
+        double sum = areaCalculator.calculateArea(List.of(
+                circle,
+                square));
+
+        System.out.println("Sum: " + sum);
     }
 }

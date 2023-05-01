@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
@@ -7,15 +8,15 @@ public class Main {
         Cube cube = new Cube(8);
         Rectangle rectangle = new Rectangle(2,3);
         NoShape noShape = new NoShape();
-        AreaCalculator areaCalculator = new AreaCalculator();
-        AreaPrinter areaPrinter = new AreaPrinter();
-        double sum = areaCalculator.calculateArea(List.of(
+        IAreaCalculator areaCalculator = new AreaCalculator();
+        AreaPrinter areaPrinter = new AreaPrinter(areaCalculator);
+        List<Shape> shapes = List.of(
                 circle,
                 square,
                 cube,
-                rectangle));
+                rectangle);
 
-        System.out.println(areaPrinter.json(sum));
-        System.out.println(areaPrinter.csv(sum));
+        System.out.println(areaPrinter.json(shapes));
+        System.out.println(areaPrinter.csv(shapes));
     }
 }

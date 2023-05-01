@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="282550ef-f128-4d98-9606-684338c9ff7d" name="Changes" comment="Fixing the violation of Interface Segregation">
-      <change afterPath="$PROJECT_DIR$/src/ThreeDimensionalShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IAreaCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cube.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AreaCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AreaCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AreaPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AreaPrinter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682962142168</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fixing the violation of Interface Segregation">
+      <created>1682962275545</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682962275545</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -1,8 +1,17 @@
+import java.util.List;
+
 public class AreaPrinter {
-    public String json(double sum){
-        return "{sum: %s}".formatted(sum);
+    private IAreaCalculator areaCalculator;
+    public AreaPrinter(IAreaCalculator areaCalculator) {
+        this.areaCalculator = areaCalculator;
     }
-    public String csv(double sum){
-        return "sum, %s".formatted(sum);
+    public AreaPrinter() {
+    }
+
+    public String json(List<Shape> shapes){
+        return "{sum: %s}".formatted(areaCalculator.calculateArea(shapes));
+    }
+    public String csv(List<Shape> shapes){
+        return "sum, %s".formatted(areaCalculator.calculateArea(shapes));
     }
 }

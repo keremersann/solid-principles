@@ -1,7 +1,7 @@
 import java.util.List;
 
-public class AreaCalculator {
-
+public class AreaCalculator implements IAreaCalculator{
+    @Override
     public double calculateArea(List<Shape> shapes){
         double sum = 0;
         for (Shape shape: shapes) {

@@ -13,8 +13,7 @@ public class Main {
                 circle,
                 square,
                 cube,
-                rectangle,
-                noShape));
+                rectangle));
 
         System.out.println(areaPrinter.json(sum));
         System.out.println(areaPrinter.csv(sum));

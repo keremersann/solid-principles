@@ -9,6 +9,7 @@ public class Main {
                 circle,
                 square));
 
-        System.out.println("Sum: " + sum);
+        System.out.println(areaCalculator.json(sum));
+        System.out.println(areaCalculator.csv(sum));
     }
 }

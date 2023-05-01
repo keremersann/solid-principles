@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="282550ef-f128-4d98-9606-684338c9ff7d" name="Changes" comment="AreaPrinter class is implemented to avoid violation of Single Responsibility Rule">
-      <change afterPath="$PROJECT_DIR$/src/Cube.java" afterDir="false" />
+    <list default="true" id="282550ef-f128-4d98-9606-684338c9ff7d" name="Changes" comment="Violation of Open-Closed principle">
+      <change afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AreaCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AreaCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -82,13 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682957851713</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Violation of Open-Closed principle">
+      <created>1682958040974</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682958040974</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Code setup" />
     <MESSAGE value="Violation of the Single Responsibility rule" />
     <MESSAGE value="AreaPrinter class is implemented to avoid violation of Single Responsibility Rule" />
-    <option name="LAST_COMMIT_MESSAGE" value="AreaPrinter class is implemented to avoid violation of Single Responsibility Rule" />
+    <MESSAGE value="Violation of Open-Closed principle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Violation of Open-Closed principle" />
   </component>
 </project>

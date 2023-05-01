@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="282550ef-f128-4d98-9606-684338c9ff7d" name="Changes" comment="Fix of Open-Closed Principle.">
-      <change afterPath="$PROJECT_DIR$/src/NoShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="282550ef-f128-4d98-9606-684338c9ff7d" name="Changes" comment="Fixed Violation of Liskov Substitiuon">
+      <change afterPath="$PROJECT_DIR$/src/ThreeDimensionalShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cube.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -99,7 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682958347188</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Violation of Liskov Substituion">
+      <created>1682961560376</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682961560376</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed Violation of Liskov Substitiuon">
+      <created>1682961743253</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682961743253</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -108,6 +121,8 @@
     <MESSAGE value="AreaPrinter class is implemented to avoid violation of Single Responsibility Rule" />
     <MESSAGE value="Violation of Open-Closed principle" />
     <MESSAGE value="Fix of Open-Closed Principle." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix of Open-Closed Principle." />
+    <MESSAGE value="Violation of Liskov Substituion" />
+    <MESSAGE value="Fixed Violation of Liskov Substitiuon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Violation of Liskov Substitiuon" />
   </component>
 </project>

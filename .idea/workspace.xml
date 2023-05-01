@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="282550ef-f128-4d98-9606-684338c9ff7d" name="Changes" comment="Violation of the Single Responsibility rule">
-      <change afterPath="$PROJECT_DIR$/src/AreaPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AreaCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AreaCalculator.java" afterDir="false" />
+    <list default="true" id="282550ef-f128-4d98-9606-684338c9ff7d" name="Changes" comment="AreaPrinter class is implemented to avoid violation of Single Responsibility Rule">
+      <change afterPath="$PROJECT_DIR$/src/Cube.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,12 +75,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682957739064</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="AreaPrinter class is implemented to avoid violation of Single Responsibility Rule">
+      <created>1682957851713</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682957851713</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Code setup" />
     <MESSAGE value="Violation of the Single Responsibility rule" />
-    <option name="LAST_COMMIT_MESSAGE" value="Violation of the Single Responsibility rule" />
+    <MESSAGE value="AreaPrinter class is implemented to avoid violation of Single Responsibility Rule" />
+    <option name="LAST_COMMIT_MESSAGE" value="AreaPrinter class is implemented to avoid violation of Single Responsibility Rule" />
   </component>
 </project>

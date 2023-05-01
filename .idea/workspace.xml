@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="282550ef-f128-4d98-9606-684338c9ff7d" name="Changes" comment="Fixing the violation of Interface Segregation">
-      <change afterPath="$PROJECT_DIR$/src/IAreaCalculator.java" afterDir="false" />
+    <list default="true" id="282550ef-f128-4d98-9606-684338c9ff7d" name="Changes" comment="Dependency Inversion is added">
+      <change afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AreaCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AreaCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AreaPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AreaPrinter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682962275545</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Dependency Inversion is added">
+      <created>1682963283538</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682963283538</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,6 +146,7 @@
     <MESSAGE value="Fixed Violation of Liskov Substitiuon" />
     <MESSAGE value="Violation of Interface Segregation" />
     <MESSAGE value="Fixing the violation of Interface Segregation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing the violation of Interface Segregation" />
+    <MESSAGE value="Dependency Inversion is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependency Inversion is added" />
   </component>
 </project>

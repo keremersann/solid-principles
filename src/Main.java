@@ -5,11 +5,12 @@ public class Main {
         Circle circle = new Circle(3);
         Square square = new Square(12);
         AreaCalculator areaCalculator = new AreaCalculator();
+        AreaPrinter areaPrinter = new AreaPrinter();
         double sum = areaCalculator.calculateArea(List.of(
                 circle,
                 square));
 
-        System.out.println(areaCalculator.json(sum));
-        System.out.println(areaCalculator.csv(sum));
+        System.out.println(areaPrinter.json(sum));
+        System.out.println(areaPrinter.csv(sum));
     }
 }
